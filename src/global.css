@@ -1,0 +1,8 @@
+.smsc-topnav .topnav__menu {
+    border: 1px solid #ccc !important;
+    border-radius: unset !important;
+}
+
+.smsc-topnav .topnav__menu-arrow::before {
+    border-color: #ccc transparent !important;
+}

@@ -1,0 +1,96 @@
+.course,
+.course_eval_row,
+.course_eval_cell {
+    min-height: 35px !important;
+    line-height: 35px !important;
+    border-color: #ddd !important;
+}
+
+.splus__grades-total-cell {
+    border-left: 3px double #666 !important;
+    width: 80px !important;
+}
+
+.splus__grades-percent-cell {
+    font-weight: bold !important;
+}
+
+#perCourse .evalsPerCourse {
+    display: flex !important;
+}
+
+#perCourse .evalsPerCourse > .courseEvals {
+    flex-grow: 1 !important;
+    width: unset !important;
+    padding: 12px !important;
+    /* box-shadow: -8px 0 10px -10px rgba(0, 0, 0, .5) !important; */
+    margin-left: 0 !important;
+    border: 1px solid #ccc !important;
+    border-width: 1px 0 1px 0 !important;
+}
+
+#perCourse .evalsPerCourse > .courseEvals .evals_eval {
+    border: none !important;
+    margin-bottom: 12px !important;
+}
+
+#perCourse .evalsPerCourse > .courseList {
+    float: unset !important;
+    /* width: unset !important; */
+}
+
+#perCourse .evalsPerCourse > .courseList .course {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    border: none !important;
+    /* margin-bottom: .5rem !important; */
+    padding-right: 18px !important;
+    height: 48px !important;
+    border: 1px solid transparent !important;
+    border-width: 0 1px 0 1px;
+}
+
+#perCourse .evalsPerCourse > .courseList .course:not(.selected) {
+    border-right-color: #ccc !important;
+}
+
+#perCourse .evalsPerCourse > .courseList .course.selected {
+    /* box-shadow: 0 -8px 10px -10px rgba(0, 0, 0, 0.5), 0 8px 10px -10px rgba(0, 0, 0, 0.5), 8px 0 10px -10px rgba(0, 0, 0, 0.5) !important; */
+    background: #fff !important;
+    color: inherit !important;
+    border: 1px solid #ccc !important;
+    border-right-color: transparent !important;
+}
+
+#perCourse .evalsPerCourse > .courseList .course > .courseCount {
+    float: unset !important;
+    /* width: unset !important; */
+    align-self: flex-end !important;
+}
+
+#perCourse .evalsPerCourse > .courseList .course > .courseCount > .courseCounter {
+    margin-top: 0 !important;
+}
+
+#perCourse .evalsPerCourse > .courseList .course > .courseText {
+    float: unset !important;
+    /* width: unset !important; */
+    max-width: 280px !important;
+    /* flex-grow: 1; */
+}
+
+#perCourse .evalsPerCourse > .courseList .course > .courseText > .courseName {
+    /* width: unset !important; */
+}
+
+#perCourse .evalsPerCourse[data-customized] > .courseList {
+    direction: rtl !important; /* left scrollbar */
+}
+
+#perCourse .evalsPerCourse[data-customized] > .courseList > .splus__inner-course-list {
+    direction: ltr !important;
+    margin-left: 6px !important;
+}
