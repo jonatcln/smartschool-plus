@@ -37,7 +37,7 @@ File an [issue] or start a new [discussion].
 
 ## Changelog
 
-See <CHANGELOG.md>.
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
