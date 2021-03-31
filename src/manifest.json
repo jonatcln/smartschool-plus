@@ -1,0 +1,58 @@
+{
+    "manifest_version": 2,
+    "name": "Smartschool Plus",
+    "short_name": "S+",
+    "version": "0.1.0",
+    "author": "JothCoder",
+    "description": "Prettifies Smartschool and adds some additonal features.",
+    "homepage_url": "https://github.com/JothCoder/smartschool-plus",
+    "icons": {
+        "48": "icons/logo.svg",
+        "96": "icons/logo.svg"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://*.smartschool.be/*" ],
+            "exclude_matches": [ "*://www.smartschool.be/*" ],
+            "css": [ "global.css" ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "https://*.smartschool.be/",
+                "https://*.smartschool.be/index.php"
+            ],
+            "exclude_matches": [ "*://www.smartschool.be/" ],
+            "css": [ "homepage.css" ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [
+                "https://*.smartschool.be/",
+                "https://*.smartschool.be/index.php"
+            ],
+            "exclude_matches": [ "*://www.smartschool.be/" ],
+            "js": [ "homepage.js" ],
+            "run_at": "document_end"
+        },
+        {
+            "matches": [ "https://*.smartschool.be/index.php?module=Agenda*" ],
+            "css": [ "agenda.css" ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [ "https://*.smartschool.be/Grades*" ],
+            "css": [ "grades.css" ],
+            "run_at": "document_start"
+        },
+        {
+            "matches": [ "https://*.smartschool.be/Grades*" ],
+            "js": [ "grades.js" ],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icons/icon.svg",
+        "default_title": "Smartschool Plus"
+    }
+}

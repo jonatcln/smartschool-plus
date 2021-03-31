@@ -1,0 +1,290 @@
+/*******************************************************************************
+ * COLORS
+ ******************************************************************************/
+
+ .color_snow_white {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    color: #262626;
+}
+
+.color_almost_white {
+    border: 1px solid transparent;
+    background-color: #FEFEFE;
+    color: #1a1a1a
+}
+
+.color_watermeloen {
+    border: 1px solid transparent;
+    background-color: #efabab;
+    color: #801111
+}
+
+.color_mandarijn {
+    border: 1px solid transparent;
+    background-color: #fcb78d;
+    color: #a53104
+}
+
+.color_vanille {
+    border: 1px solid transparent;
+    background-color: #fee996;
+    color: #806601
+}
+
+.color_munt {
+    border: 1px solid transparent;
+    background-color: #abef89;
+    color: #1a8508
+}
+
+.color_zeilen {
+    border: 1px solid transparent;
+    background-color: #9dd2f8;
+    color: #1d479b
+}
+
+.color_babyroos {
+    border: 1px solid transparent;
+    background-color: #fda3d8;
+    color: #a30060
+}
+
+.color_lavendel {
+    border: 1px solid transparent;
+    background-color: #d7baf3;
+    color: #4f227a
+}
+
+.color_zilver {
+    border: 1px solid transparent;
+    background-color: #e6e6e6;
+    color: #1a1a1a
+}
+
+.color_sunset {
+    border: 1px solid #b00;
+    background-color: #ff4a46;
+    color: #fff
+}
+
+.color_vermiljoen {
+    border: 1px solid transparent;
+    background-color: #ff0000;
+    color: #fff
+}
+
+.color_appelsien {
+    border: 1px solid transparent;
+    background-color: #ff520e;
+    color: #fff
+}
+
+.color_banaan {
+    border: 1px solid transparent;
+    background-color: #ffcc00;
+    color: #493a00
+}
+
+.color_kiwi {
+    border: 1px solid transparent;
+    background-color: #57d31a;
+    color: #073101
+}
+
+.color_hemel {
+    border: 1px solid transparent;
+    background-color: #1a96f1;
+    color: #fff
+}
+
+.color_magenta {
+    border: 1px solid transparent;
+    background-color: #ff0097;
+    color: #fff
+}
+
+.color_lila {
+    border: 1px solid transparent;
+    background-color: #9559cd;
+    color: #fff
+}
+
+.color_staal {
+    border: 1px solid transparent;
+    background-color: #828282;
+    color: #fff
+}
+
+.color_robijn {
+    border: 1px solid transparent;
+    background-color: #b31616;
+    color: #fff
+}
+
+.color_koper {
+    border: 1px solid transparent;
+    background-color: #d33d02;
+    color: #fff
+}
+
+.color_oker {
+    border: 1px solid transparent;
+    background-color: #c09a03;
+    color: #fff
+}
+
+.color_augurk {
+    border: 1px solid transparent;
+    background-color: #3d990f;
+    color: #fff
+}
+
+.color_ultramarijn {
+    border: 1px solid transparent;
+    background-color: #275fd2;
+    color: #fff
+}
+
+.color_rode_bosbes {
+    border: 1px solid transparent;
+    background-color: #ce017a;
+    color: #fff
+}
+
+.color_violet {
+    border: 1px solid transparent;
+    background-color: #582884;
+    color: #fff
+}
+
+.color_lood {
+    border: 1px solid transparent;
+    background-color: #3c3c3c;
+    color: #fff
+}
+
+.color_bordeaux {
+    border: 1px solid transparent;
+    background-color: #6a1414;
+    color: #fff
+}
+
+.color_aarde {
+    border: 1px solid transparent;
+    background-color: #852a06;
+    color: #fff
+}
+
+.color_donker_goud {
+    border: 1px solid transparent;
+    background-color: #806601;
+    color: #fff
+}
+
+.color_ruccola {
+    border: 1px solid transparent;
+    background-color: #115805;
+    color: #fff
+}
+
+.color_koningsblauw {
+    border: 1px solid transparent;
+    background-color: #123783;
+    color: #fff
+}
+
+.color_royalblue {
+    border: 1px solid transparent;
+    background-color: #3a70e6;
+    color: #fff
+}
+
+.color_fluweel {
+    border: 1px solid transparent;
+    background-color: #7e004a;
+    color: #fff
+}
+
+.color_purper {
+    border: 1px solid transparent;
+    background-color: #3c1b5c;
+    color: #fff
+}
+
+.color_grafiet {
+    border: 1px solid transparent;
+    background-color: #1a1a1a;
+    color: #fff
+}
+
+/******************************************************************************/
+
+.agenda_grid_main .agenda_grid_content .agenda_grid_days .agenda_grid_day_column .gridBlock,
+.lessonFormColorExampleExample {
+    border-radius: unset !important;
+}
+
+.gridBlock .agendaGridBlockContentLeft,
+.gridBlockListView .agendaGridBlockContentLeft,
+.lessonFormColorExampleExample {
+    padding: 4px 8px !important;
+}
+
+.agenda_grid_main {
+    padding: unset !important;
+}
+
+.border.centerxy {
+    background-image: unset !important;
+    border: none !important;
+    padding: unset !important;
+}
+
+.border:not(.centerxy) {
+    display: none !important;
+}
+
+.leftContainer, .menuContainer, .rightContainer {
+    margin-top: unset !important;
+}
+
+#contentContainer {
+    margin-top: 0 !important;
+}
+
+#navigationContainer {
+    position: unset !important;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+}
+
+#agenda_main {
+    margin-top: 0 !important;
+}
+
+.agenda_grid_main .agenda_grid_days_header {
+    height: unset !important;
+}
+
+.agenda_grid_main .agenda_grid_days_header .agenda_grid_header_days .agenda_grid_header_day {
+    margin: 6px 0 !important;
+}
+
+.menuContainer {
+    margin: 0 !important;
+    margin-left: 12px !important;
+}
+
+#menuContainerTotal {
+    width: unset !important;
+    padding: 9px !important;
+}
+
+#menuContainerContent {
+    margin-top: 0 !important;
+}
+
+.menuContainer .menuButton {
+    margin: 6px 0 !important;
+}

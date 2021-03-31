@@ -1,0 +1,24 @@
+#homepage__block--courses > .homepage__block__content {
+    direction: rtl;
+    margin-left: -12px;
+}
+
+#course__list {
+    max-height: calc(100vh - 48px - 2*1.333rem - 40px) !important;
+    overflow: unset !important;
+    direction: ltr;
+    margin-left: 12px;
+}
+
+.splus__shortcuts-menu {
+    flex-direction: row !important;
+}
+
+.splus__shortcuts-menu hr.menu-divider {
+    width: 100% !important;
+}
+
+.splus__shortcuts-menu [role^="menuitem"] {
+    width: 200px !important;
+    min-width: 200px !important;
+}
