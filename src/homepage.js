@@ -1,37 +1,6 @@
 (function main() {
     insertShortcutMenuAsHomepageBlock();
-    hideInternalLinksInfoWhenReady();
 })();
-
-function hideInternalLinksInfoWhenReady() {
-    const courseList = document.getElementById('course__list');
-
-    const coursesLoaded = () => courseList.querySelector('.course__block:not(.course__block--loading)');
-
-    if (coursesLoaded()) {
-        hideInternalLinksInfo();
-    } else {
-        const observer = new MutationObserver(() => {
-            if (coursesLoaded()) { hideInternalLinksInfo(); }
-        });
-
-        observer.observe(courseList, { childList: true });
-    }
-}
-
-function hideInternalLinksInfo() {
-    Object.values(document.links)
-        .forEach(anchor => {
-            const targetHref = anchor.href;
-            if (anchor.hostname === location.hostname) {
-                anchor.addEventListener('click', e => {
-                    e.preventDefault();
-                    window.location.href = targetHref;
-                });
-                anchor.removeAttribute('href');
-            }
-        });
-}
 
 function insertShortcutMenuAsHomepageBlock() {
     const homepageBlock = document.createElement('div');
