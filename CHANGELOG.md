@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.1] - 2021-04-05
+
+### Fixed
+
+- Fixed the 'homepage links not opening in new tab' bug.
+
 ## [0.1.0] - 2021-03-29
 
 ### Added
@@ -12,3 +18,4 @@
 
 
 [0.1.0]: https://github.com/JothCoder/smartschool-plus/releases/tag/v0.1.0
+[0.1.1]: https://github.com/JothCoder/smartschool-plus/releases/tag/v0.1.1

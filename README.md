@@ -1,8 +1,16 @@
+<p align="center"><img alt="Smartschool Plus logo" src="assets/logo.png" align="center"></p>
+
 # Smartschool Plus
 
-[![Get the add-on for Firefox](get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/smartschool-plus/)
+[![Mozilla Add-on](https://img.shields.io/amo/v/smartschool-plus?style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/smartschool-plus/)
+![Mozilla Add-on](https://img.shields.io/amo/users/smartschool-plus?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/JothCoder/smartschool-plus?style=for-the-badge)
 
 A browser extension that prettifies Smartschool and adds some additonal features.
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/smartschool-plus/" title="Get the add-on for Firefox">
+<img src="assets/get-the-addon.svg" height="60" alt="Get the add-on for Firefox">
+</a>
 
 ## Features
 
@@ -26,6 +34,10 @@ A browser extension that prettifies Smartschool and adds some additonal features
 - The course 'boxes' got a more modern style.
 - The default gray color has been lightened (more colors will be changed in the future).
 
+## Screenshots
+
+![](assets/screenshots/start.png)
+
 ## Issues and feature requests
 
 Found a bug or unexpected behaviour? Got a great idea or want to discuss something?
@@ -37,7 +49,7 @@ File an [issue] or start a new [discussion].
 
 ## Changelog
 
-See <CHANGELOG.md>.
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
