@@ -1,3 +1,5 @@
+**:warning: The development of this add-on is discontinued. It is no longer available on the Mozilla add-on store. :warning:**
+
 <p align="center"><img alt="Smartschool Plus logo" src="assets/logo.png" align="center"></p>
 
 # Smartschool Plus
